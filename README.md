@@ -24,11 +24,11 @@ pip install -r requirements.txt
 
 make .env file m below is the template 
 -------------------##-----------------------------------------------------
-DB_HOST=holistique-middleware.c9wdjmzy25ra.ap-south-1.rds.amazonaws.com
+DB_HOST="dburl"
 DB_PORT=3306
-DB_USER=TEST_USER
-DB_PASSWORD=TEST_USER
-DB_NAME=TEST
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
 
 # OpenAI API Key
 OPENAI_API_KEY=your_openai_api_key_here
